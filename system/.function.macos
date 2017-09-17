@@ -21,3 +21,11 @@ dash() {
   esac
   open "dash://$QUERY"
 }
+
+
+
+## cd into the current Finder folder
+
+cdf() {
+  cd `osascript $DOTFILES_DIR/bin/GetCurrentFinderFolder.scpt`
+}
