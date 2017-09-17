@@ -41,6 +41,9 @@ apps=(
   tree
   wget
   wifi-password
+  zsh
+  zsh-completions
+  zsh-syntax-highlighting
 )
 
 brew install "${apps[@]}"
