@@ -23,10 +23,14 @@ precmd () {
     print -Pn '\e]0;$CUSTOM_WINDOW_TITLE\a'
 }
 
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
 # Show completion on first TAB
 setopt menucomplete
+
+
+alias l='ls'
+alias ll='ls -lh'
+alias lll='ls -alh'
+
+
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
