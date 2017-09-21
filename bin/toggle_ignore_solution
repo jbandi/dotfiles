@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if grep -Fxq "#*solution*" .gitignore
+then
+    sed -i 's/\#\*solution\*/\*solution\*/' .gitignore
+else
+    sed -i 's/\*solution\*/\#\*solution\*/' .gitignore
+fi
