@@ -53,3 +53,8 @@ set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$
 
 ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup" ~
+
+
+#change default shell
+sudo echo /usr/local/bin/zsh >> /etc/shells
+chsh -s /usr/local/bin/zsh
