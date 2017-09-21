@@ -31,6 +31,9 @@ alias l='ls'
 alias ll='ls -lh'
 alias lll='ls -alh'
 
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/jbandi/.sdkman"
+[[ -s "/Users/jbandi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jbandi/.sdkman/bin/sdkman-init.sh"
 
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
