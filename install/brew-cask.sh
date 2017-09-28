@@ -9,43 +9,44 @@ brew tap caskroom/versions
 # Install packages
 
 apps=(
-#  alfred
+  alfred
   airserver
   appcode
   atom
+  bettertouchtool
   beyond-compare
   brave
   charles
   cyberduck
-#  dash2
+  dash2
   default-folder-x
   disk-inventory-x
-#  dropbox
+  dropbox
   duet
-# firefox
-#-firefoxnightly
-#-firefoxdeveloperedition
+  firefox
+  firefoxnightly
+  firefoxdeveloperedition
   flixtools
 # flux
   forklift
 # glimmerblocker
   github-desktop
-#  google-chrome
-#-google-chrome-canary
+  google-chrome
+  google-chrome-canary
 #  google-drive
-go2shell
+  go2shell
 #  hammerspoon
   hyper
   intellij-idea
   istat-menus
   iterm2
-#  kaleidoscope
+  kaleidoscope
   karabiner-elements
   keka
   keycastr
-#  macdown
-#-leap
-#-licecap
+  macdown
+  leap
+  licecap
   microsoft-office
   mongodb
   mongodb-compass
@@ -55,27 +56,27 @@ go2shell
   parallels-desktop
   postgres
   postico
-#  screenflow
+  screenflow
 ##  slack
-#  sourcetree
+  sourcetree
 ##  spotify
-#  sublime-text
+  sublime-text
   skype
 ##  transmit
   transmission
   tripmode
-#  virtualbox
+  virtualbox
  visual-studio-code
-#  vlc
-#  vmware-fusion
-#  webstorm
+  vlc
+  vmware-fusion
+  webstorm
   whatsapp
 )
 
 brew cask install "${apps[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-#brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
 # Link Hammerspoon config
 #if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi

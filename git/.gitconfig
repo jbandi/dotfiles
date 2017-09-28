@@ -1,6 +1,6 @@
 [user]
-  name = Jonas Bandi
-  email = dev@jonasbandi.net
+	name = Jonas Bandi
+	email = dev@jonasbandi.net
 
 [github]
   user = jbandi
@@ -98,3 +98,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
