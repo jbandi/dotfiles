@@ -15,6 +15,7 @@ apps=(
   bash-completion2
   bats
   battery
+  cloc
   coreutils
   diff-so-fancy
   dockutil
