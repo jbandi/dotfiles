@@ -31,6 +31,9 @@ alias l='ls'
 alias ll='ls -lh'
 alias lll='ls -alh'
 
+alias jsc=/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc
+
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jbandi/.sdkman"
 [[ -s "/Users/jbandi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jbandi/.sdkman/bin/sdkman-init.sh"
