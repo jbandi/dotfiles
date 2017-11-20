@@ -28,6 +28,7 @@ apps=(
   firefoxdeveloperedition
   flixtools
 # flux
+  fork
   forklift
 # glimmerblocker
   github-desktop
