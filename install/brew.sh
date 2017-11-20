@@ -26,6 +26,7 @@ apps=(
   git-extras
   gnu-sed --with-default-names
   grep --with-default-names
+  heroku/brew/heroku
   hub
   httpie
   imagemagick
