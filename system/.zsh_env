@@ -33,6 +33,8 @@ alias lll='ls -alh'
 
 alias jsc=/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc
 
+alias remove_node_modules='find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +'
+
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jbandi/.sdkman"
