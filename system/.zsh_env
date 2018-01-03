@@ -1,4 +1,6 @@
 
+
+
 export NVM_DIR=~/.nvm
 source "/usr/local/opt/nvm/nvm.sh"
 
@@ -10,7 +12,11 @@ export DOTFILES_DIR=~/.dotfiles
 
 export PATH=$DOTFILES_DIR/bin:$PATH
 
-export PATH=$PATH:~/Dev/tools/glassfish5/bin
+export GLASSFISH_HOME=~/Dev/tools/glassfish5
+export PATH=$PATH:$GLASSFISH_HOME/bin
+
+export JBOSS_HOME=~/Dev/tools/wildfly-11.0.0.Final
+export PATH=$PATH:$JBOSS_HOME/bin
 
 
 local smiley="%(?,%{$fg[green]%}✔%{$reset_color%},%{$fg[red]%}✘%{$reset_color%})"

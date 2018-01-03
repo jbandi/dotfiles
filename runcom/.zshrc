@@ -1,3 +1,12 @@
+
+# jbandi, 20171218, setting TERM, because of DTERM output
+if [ -z $TERM ]; then
+  export TERM=xterm
+fi
+
+
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
