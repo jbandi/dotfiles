@@ -18,6 +18,18 @@ export PATH=$PATH:$GLASSFISH_HOME/bin
 export JBOSS_HOME=~/Dev/tools/wildfly-11.0.0.Final
 export PATH=$PATH:$JBOSS_HOME/bin
 
+######
+# Dez 2017: If Java Server Startup is slow, add an entry to /etc/hosts:
+# 127.0.0.1       localhost Greyfox.local
+# 255.255.255.255 broadcasthost
+# ::1             localhost Greyfox.local
+#
+# See also:
+# https://stackoverflow.com/questions/39636792/jvm-takes-a-long-time-to-resolve-ip-address-for-localhost/39698914#39698914
+# https://thoeni.io/post/macos-sierra-java/
+######
+
+
 
 local smiley="%(?,%{$fg[green]%}✔%{$reset_color%},%{$fg[red]%}✘%{$reset_color%})"
 
