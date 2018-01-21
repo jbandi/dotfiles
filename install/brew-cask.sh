@@ -46,6 +46,7 @@ apps=(
   keka
   keycastr
   macdown
+  numi
   leap
   licecap
   microsoft-office
