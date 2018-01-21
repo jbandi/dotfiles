@@ -61,6 +61,7 @@ apps=(
   screenflow
 ##  slack
   sourcetree
+  spectacle
 ##  spotify
   sublime-text
   skype
