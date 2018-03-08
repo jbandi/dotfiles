@@ -43,6 +43,7 @@ apps=(
   tree
   wget
   wifi-password
+  youtube-dl
   zsh
   zsh-completions
   zsh-syntax-highlighting
