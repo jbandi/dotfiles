@@ -46,6 +46,7 @@ apps=(
   keka
   keycastr
   macdown
+  now
   numi
   leap
   licecap
