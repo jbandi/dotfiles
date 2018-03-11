@@ -59,6 +59,7 @@ apps=(
   parallels-desktop
   postgres
   postico
+  postman
   screenflow
 ##  slack
   sourcetree
