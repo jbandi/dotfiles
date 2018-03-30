@@ -50,6 +50,7 @@ apps=(
   numi
   leap
   licecap
+  little-snitch
   microsoft-office
   mongodb
   mongodb-compass
