@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Shows time machine log entries
+#
+log show --style syslog  --predicate 'senderImagePath contains[cd] "TimeMachine"' --info --last 12h
