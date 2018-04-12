@@ -46,6 +46,7 @@ apps=(
   keka
   keycastr
   macdown
+  macpass
   now
   numi
   leap
