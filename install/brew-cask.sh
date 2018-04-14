@@ -15,6 +15,7 @@ apps=(
   atom
   bettertouchtool
   beyond-compare
+  bitbar
   brave
   charles
   cyberduck
