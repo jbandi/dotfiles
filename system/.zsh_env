@@ -11,6 +11,7 @@ export M2_REPO=$M2_HOME/repository
 export DOTFILES_DIR=~/.dotfiles
 
 export PATH=$DOTFILES_DIR/bin:$PATH
+export PATH=~/Dropbox/OSX/bin:$PATH
 
 export GLASSFISH_HOME=~/Dev/tools/glassfish5
 export PATH=$PATH:$GLASSFISH_HOME/bin
@@ -63,5 +64,8 @@ alias remove_node_modules='find . -name 'node_modules' -type d -prune -exec rm -
 export SDKMAN_DIR="/Users/jbandi/.sdkman"
 [[ -s "/Users/jbandi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jbandi/.sdkman/bin/sdkman-init.sh"
 
+## Tool: https://geoff.greer.fm/lscolors/
+#LSCOLORS=Gxfxcxdxbxegedabagacad
+LSCOLORS=Exfxcxdxbxegedabagacad
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
