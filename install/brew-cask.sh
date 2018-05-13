@@ -78,6 +78,10 @@ apps=(
   vmware-fusion
   webstorm
   whatsapp
+  
+  # VIDEO EDITING
+  avidemux
+  lightworks 
 )
 
 brew cask install "${apps[@]}"
