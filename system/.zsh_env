@@ -59,6 +59,18 @@ alias jsc=/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resourc
 
 alias remove_node_modules='find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +'
 
+alias ng-new-j="ng new --routing --skip-tests --inline-template --inline-style --style scss"
+
+
+
+
+webstorm_at_finder_path() {
+  /Users/jbandi/Dropbox/OSX/bin/webstorm `osascript $DOTFILES_DIR/bin/GetCurrentFinderFolder.scpt` &
+}
+
+# STOP PULSESECURE TO AUTO START AFTER INSTALLATION
+# -> remove the /Library/LaunchAgents/net.pulsesecure.pulsetray.plist so that it does not autoboot at every startup
+alias pulsesecure="open /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jbandi/.sdkman"

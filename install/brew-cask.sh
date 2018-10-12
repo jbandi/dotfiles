@@ -38,6 +38,7 @@ apps=(
 #  google-drive
   go2shell
 #  hammerspoon
+  handbrake
   hyper
   intellij-idea
   istat-menus

@@ -29,3 +29,8 @@ dash() {
 cdf() {
   cd `osascript $DOTFILES_DIR/bin/GetCurrentFinderFolder.scpt`
 }
+
+
+webstorm_at_finder_path() {
+  /Users/jbandi/Dropbox/OSX/bin/webstorm `osascript $DOTFILES_DIR/bin/GetCurrentFinderFolder.scpt`
+}
