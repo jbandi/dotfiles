@@ -29,6 +29,7 @@ apps=(
   firefoxdeveloperedition
   flixtools
 # flux
+  font-fira-code
   fork
   forklift
 # glimmerblocker
