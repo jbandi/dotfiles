@@ -65,6 +65,7 @@ apps=(
   postgres
   postico
   postman
+  #TODO: runjs
   screenflow
 ##  slack
   sourcetree
