@@ -61,7 +61,7 @@ alias remove_node_modules='find . -name 'node_modules' -type d -prune -exec rm -
 
 alias ng-new-j="ng new --routing --skip-tests --inline-template --inline-style --style scss"
 
-
+alias loc-j="cloc src --exclude-dir=node_modules,bower_components,.idea,.vscode,documentation --not-match-f=package --by-file-by-lang"
 
 
 webstorm_at_finder_path() {
