@@ -5,6 +5,7 @@ fi
 
 brew tap caskroom/cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 # Install packages
 
@@ -29,6 +30,7 @@ apps=(
   firefoxdeveloperedition
   flixtools
 # flux
+  font-fira-code
   fork
   forklift
 # glimmerblocker
@@ -63,6 +65,7 @@ apps=(
   postgres
   postico
   postman
+  #TODO: runjs
   screenflow
 ##  slack
   sourcetree
