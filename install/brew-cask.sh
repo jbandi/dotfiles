@@ -10,6 +10,7 @@ brew tap caskroom/fonts
 # Install packages
 
 apps=(
+  adobe-acrobat-reader
   alfred
   airserver
   appcode
